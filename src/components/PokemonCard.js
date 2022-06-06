@@ -12,7 +12,7 @@ function PokemonCard({id, name, hp, frontSprite, backSprite}) {
     <Card>
       <div >
         <div className="image" onClick={flipCard}>
-          <img src= {flipped? backSprite:frontSprite} alt="oh no!" />
+          <img src= {flipped? backSprite : frontSprite} alt="oh no!" />
         </div>
         <div className="content">
           <div className="header">{name}</div>
